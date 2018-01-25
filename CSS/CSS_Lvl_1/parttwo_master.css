@@ -1,0 +1,23 @@
+body{
+  /* background-color: grey; */
+  background: url(https://news.nationalgeographic.com/content/dam/news/2015/12/21/yearinspace/01yearinspace2015.jpg);
+  background-repeat: repeat;
+}
+
+div{
+  background-color: blue;
+  /* background: color ... Also works*/
+  border-color: red;
+  /* border-width: medium; */
+  border-width: 5px;
+  border-style: dotted;
+}
+
+p{
+  color: yellow;
+}
+
+span{
+  background: orange;
+  color: black;
+}

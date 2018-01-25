@@ -1,0 +1,25 @@
+/* this is a comment */
+/* control + / on highlighted text turns it into a comment */
+
+/* Basic form:
+  selected tag{
+  property: value;
+} */
+
+h1{
+  color: blue;
+}
+
+li{
+  color: rgb(49, 179, 188);
+}
+
+p{
+  color: #7c137c; /*most used*/
+}
+
+h4{
+  color: rgba(49, 179, 188,0.2);
+  /* a defines how transparent the color is. 0 - transparent 1 - opac*/
+
+}

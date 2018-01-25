@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Hotel Feedback</title>
+  </head>
+  <body>
+    <h1>Hotel Feedback Form</h1>
+    <!-- basic radio buttons can be turned on but not off -->
+    <!-- adding a space behind the colon in the label does not affect the
+    spacing between the text and the button -->
+    <!-- without name, both buttons in this situation can be selected when we
+    don't want that -->
+    <!-- Values return what the answers were:
+    without value, a submitted form will not retain the Values
+    with value, the form will have responses -->
+    <form method="get">
+      <h3>Are you from inside or outside the US?</h3>
+      <label for="inusa">Inside:</label>
+      <input id="inusa" type="radio" name="loc" value="inside">
+
+      <label for="outusa">Outside: </label>
+      <input id="outusa" type="radio" name="loc" value="outside">
+
+      <h2>How was your service?</h2>
+      <select name="stars">
+        <option value="Great">3</option>
+        <option value="Okay">2</option>
+        <option value="Bad">1</option>
+      </select>
+
+      <h2>Any other feedback?</h2>
+      <textarea name="mytext" rows="8" cols="80"></textarea>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>

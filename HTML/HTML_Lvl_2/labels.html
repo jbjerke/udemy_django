@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Labels</title>
+  </head>
+  <body>
+    <form>
+      <p>Enter Email:</p>
+      <input type="email" name="useremail" value="">
+      <input type="submit" name="" value="submit">
+      <!-- altho it does not appear to do anything, there is an extension added
+      to the address bar that denotes the change of user -->
+    </form>
+
+    <form>
+      <p>Enter Text:</p>
+      <input type="text" name="userinput" value="">
+      <input type="submit" name="" value="submit">
+      <!-- again causes an extension in the bar -->
+      <!-- example: typed in "oh shit" and at the end of the bar was
+      userinput=oh+shit -->
+    </form>
+
+    <!-- now by putting in an action, upon submitting the information, this
+    action should be executed -->
+    <form action="https://www.facebook.com" method="get">
+      <p>Enter Text and take me to FB:</p>
+      <input type="text" name="userinput" value="">
+      <input type="submit" name="" value="submit">
+    </form>
+
+    <h1>Labels</h1>
+    <h2>Bad Labeling (done individually)</h2>
+    <!-- This method would force us to code each label individually
+    which is bad yo -->
+    <form>
+      <label>
+        Enter Text:
+        <input type="text" name="" value="">
+      </label>
+      <label>
+        Enter Text:
+        <input type="text" name="" value="">
+      </label>
+    </form>
+
+    <h2>Better labeling (using for)</h2>
+    <form>
+      <label for="userinput">Enter Input:</label>
+
+      <!-- for mean that the label is FOR inputs with a matching ID -->
+      <input id="userinput" type="text" name="" value="value Hello!">
+
+      <!-- placeholder instead of value means the text will be faint. Value text
+      has to be manually backspaced but placeholders disappear when you type -->
+      <input id="userinput" type="text" name="" placeholder="placeholder Hello!">
+    </form>
+
+    <h2>Required</h2>
+    <p>Another variable for the input tag is "required" which simply means
+    input is required there.</p>
+    <form>
+      <input type="text" name="" placeholder="Not required text">
+      <input type="text" name="" placeholder="Required text" required>
+      <input type="submit" name="" value="Submit">
+    </form>
+  </body>
+</html>
