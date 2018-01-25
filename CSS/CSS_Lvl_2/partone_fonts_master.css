@@ -1,0 +1,27 @@
+h1{
+  font-family:"Arial";
+}
+
+body{
+  font-size: 12px;
+}
+
+/* em is dynamic and more common than px font sizes */
+/* 1em = 16px (default size)*/
+/* 2em = 32px */
+/* Set the default em size in body tag */
+#two{
+  font-size: 2.0em
+}
+
+/* p{
+  font-style: italic;
+  font-weight: bold;
+} */
+
+h1{
+  text-align: center;
+}
+
+p{
+  font-family: 'Risque', cursive;

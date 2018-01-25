@@ -1,0 +1,41 @@
+/* div{
+  color: red;
+}
+
+This still affects all div tags
+To just affect certain ones, use class names
+*/
+
+/* Class calls always start with a . */
+.firstDiv{
+  color: blue;
+}
+
+.secondDiv{
+  color: red;
+}
+
+/*Ids use # */
+#singledout{
+  color: green;
+  text-decoration: line-through;
+  /*how would I make it so the text is green but the cross out line is black?*/
+}
+
+/* * calls override everything but Ids */
+/* *{
+  color: black;
+} */
+
+h3 + ul{
+  border: 4px dotted purple;
+}
+
+li a{
+  color: red;
+}
+
+li a[href="www.npr.org"]{
+  color: blue;
+  border: 5px dashed orange;
+}

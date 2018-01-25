@@ -1,0 +1,20 @@
+body{
+  font-family: 'Supermercado One', cursive;
+  color: white;
+  text-align: center;
+  background-color: #11163a;
+  border-left: 60px solid #2EC4B6;
+  margin-left: 0px;
+  border-right: 60px solid #2EC4B6;
+  margin-right: 0px;
+  border-bottom: 60px solid #2EC4B6;
+}
+
+#sub{
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-radius: 25px;
+  background-color: #ffc54c;
+}

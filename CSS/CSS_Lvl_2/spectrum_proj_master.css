@@ -1,0 +1,57 @@
+/* font-family: 'Indie Flower', cursive; */
+/* spectrum colors
+#1A535C
+#4ECDC4
+#F7FFF7
+#FF6B6B
+#FFE66D */
+/*top,right,bottom,left*/
+
+h2{
+  font-family: 'Indie Flower', cursive;
+  text-align: center;
+}
+
+/* table{
+  margin:auto;
+} */
+.art{
+  margin: auto;
+}
+
+td{
+  background-color: black;
+  border: 5px solid white; /* wow, and here I thought you had to mess w margin or padding */
+  width: 125px;
+  height: 250px;
+}
+
+#boxone{
+  background-color: #1A535C;
+  /* width: 125px;
+  height: 250px; */
+}
+
+#boxtwo{
+  background-color: #4ECDC4;
+  /* width: 125px;
+  height: 250px; */
+}
+
+#boxthree{
+  background-color: #F7FFF7;
+  /* width: 125px;
+  height: 250px; */
+}
+
+#boxfour{
+  background-color: #FF6B6B;
+  /* width: 125px;
+  height: 250px; */
+}
+
+#boxfive{
+  background-color: #FFE66D;
+  /* width: 125px;
+  height: 250px; */
+}
