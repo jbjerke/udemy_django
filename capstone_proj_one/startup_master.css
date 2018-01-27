@@ -3,11 +3,14 @@ body{
   color: white;
   text-align: center;
   background-color: #11163a;
-  border-left: 60px solid #2EC4B6;
+  /* border-left: 60px solid #2EC4B6;
   margin-left: 0px;
   border-right: 60px solid #2EC4B6;
   margin-right: 0px;
-  border-bottom: 60px solid #2EC4B6;
+  border-bottom: 60px solid #2EC4B6; */
+  border: 60px solid #2EC4B6;
+  border-top: 0px;
+  margin: 0px;
 }
 
 #sub{
