@@ -1,0 +1,17 @@
+td{
+  /* border-width: medium; */
+  height: 150px;
+  width: 150px;
+  text-align: center;
+  border: 5px solid black;
+  font-size: 100px;
+}
+
+/* .table-bordered{
+  border-width: medium;
+} */
+
+/* button{
+  border-color: black;
+  border-width: thin;
+} */
